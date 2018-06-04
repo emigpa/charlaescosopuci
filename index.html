@@ -160,11 +160,12 @@ class: middle
 # Estructura
 ]
 .right-column[
+![diagrama](diagrama.png)
+##Backend
 ###SESUDA (**SE**rvidor **SU**ple **DA**tos)
 - NodeJs.
 - Docker.
 - Mysql / CouchDb (PouchDb) / ElasticSearch / Neo4j.
-![diagrama](diagrama.png)
 ]
 ---
 layout: false
@@ -173,12 +174,13 @@ class: middle
 # Estructura
 ]
 .right-column[
+## Frontend
 ### Comunicación Interna (institucional)
-- Seguimiento / estado de datos.
+- Seguimiento / estado de datos. - MEDIR -
 
 ### Comunicación externa (pública)
-- Endógena: producida en UNSAM (sigeva, otras áreas).
-- Exógena: producida fuera de UNSAM, sólo podemos analizarla (Scopus, otras instituciones).
+- Endógena: producida en UNSAM (sigeva, otras áreas). - Círculos producción -
+- Exógena: producida fuera de UNSAM, sólo podemos analizarla (Scopus, otras instituciones). - scopus quinquenio -
 ]
 ---
 template: inverse
@@ -221,6 +223,7 @@ template: inverse
 ]
 .right-column[
 ### Círculos producción
+Modelo físico que representa las publicaciones científicas de las UUAA.
 
 - Basado en los resultados de la Memoria Institucional 2016.
 - Separado por unidad académica.
@@ -228,7 +231,7 @@ template: inverse
 - Artículos por gran área.
 
 ###Desarrollado usando:
-- D3.
+- D3js.
 - Webpack.
 ]
 ---
@@ -244,8 +247,9 @@ layout: false
 ### - Scopus quinquenio
 ]
 .right-column[
-###Scopus:
-Es una base de datos de citas y publicaciones científicas en revistas evaluadas por pares.
+###Scopus quinquenio:
+Scatterchart (Gráfico de dispersión) que representa la publicaciones científicas con afiliación UNSAM indexadas por Scopus.
+- Datos tomados de Scopus (base de datos de citas y publicaciones científicas en revistas evaluadas por pares).
 - Ordenado por cantidad de citas.
 - Graficamos un quinquenio.
 - Discriminado por area de conocimiento.
@@ -272,9 +276,11 @@ class: middle
 # Resultados
 ]
 .right-column[
+- Se sistematizó el relevamiento de datos.
+- Hay una continuidad en las políticas de comunicación.
+- Se maneja un mismo lenguaje entre UUAA.
 - Mejoró la participación de los investigadores.
-- .
-- Discriminado por area de conocimiento.
+- Se publican resultados en la web UNSAM.
 ]
 ---
 layout: false
